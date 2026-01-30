@@ -1,7 +1,7 @@
 # Problem 40: Count consonants in a string
 # Find and fix the error
 
-def count_consonants(text):
+ def count_consonants(text):
     vowels = "aeiouAEIOU"
     count = 0
     for char in text:
