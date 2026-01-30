@@ -1,8 +1,6 @@
 # Problem 53: Check if two strings are anagrams
-# Find and fix the error
-
-def are_anagrams(str1, str2):
-    return sorted(str1) == sorted(str2)
+ def are_anagrams(str1, str2):
+    return sorted(str1.lower()) == sorted(str2.lower())
 
 word1 = "Listen"
 word2 = "Silent"
