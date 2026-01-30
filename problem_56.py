@@ -1,7 +1,5 @@
 # Problem 56: Remove vowels from string
-# Find and fix the error
-
-def remove_vowels(text):
+ def remove_vowels(text):
     vowels = "aeiouAEIOU"
     result = ""
     for char in text:
