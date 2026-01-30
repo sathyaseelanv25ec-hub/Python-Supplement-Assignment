@@ -1,7 +1,8 @@
 # Problem 8: Check if a string is palindrome
 # Find and fix the error
 
-def is_palindrome(text):
+ def is_palindrome(text):
+    text = text.lower()  # convert to lowercase
     return text == text[::-1]
 
 word = "Racecar"
