@@ -1,7 +1,5 @@
 # Problem 55: Count frequency of each element
-# Find and fix the error
-
-def count_frequency(lst):
+ def count_frequency(lst):
     freq = {}
     for item in lst:
         if item in freq:
