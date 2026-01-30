@@ -1,8 +1,13 @@
 # Problem 42: Convert list to string
 # Find and fix the error
 
-words = ["Hello", "World", "Python"]
-sentence = ""
-for word in words:
-    sentence += word + " "
-print(f"Sentence: {sentence}")
+ numbers = [10, 20, 30, 40, 50]
+search = 30
+index = -1
+
+for i in range(len(numbers)):
+    if numbers[i] == search:
+        index = i
+        break  # stop once found
+
+print(f"Index of {search}: {index}")
