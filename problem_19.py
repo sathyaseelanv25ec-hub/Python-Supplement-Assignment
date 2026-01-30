@@ -1,9 +1,9 @@
 # Problem 19: Calculate power of a number
 # Find and fix the error
 
-def power(base, exponent):
+ def power(base, exponent):
     result = 1
-    for i in range(exponent):
+    for _ in range(exponent):  # use _ since the loop variable is not needed
         result *= base
     return result
 
